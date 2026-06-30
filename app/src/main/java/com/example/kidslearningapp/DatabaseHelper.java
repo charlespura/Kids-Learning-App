@@ -28,6 +28,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 "score INTEGER DEFAULT 0)";
         db.execSQL(createTable);
     }
+
+
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         if (oldVersion < 2) {
