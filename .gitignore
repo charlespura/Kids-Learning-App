@@ -1,0 +1,15 @@
+# Ignore Android Studio project files
+.idea/
+*.iml
+.gradle/
+local.properties
+/captures/
+/build/
+.externalNativeBuild/
+.cxx/
+
+# macOS-specific files
+.DS_Store
+
+# Ignore native build folders
+/local.properties
